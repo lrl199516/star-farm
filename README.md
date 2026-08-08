@@ -6,6 +6,7 @@
 
 - 当前阶段：阶段 0（环境搭建）
 - 进度：Vue 3 前端项目已创建并通过本地运行验证
+- GitHub 仓库：https://github.com/lrl199516/star-farm
 
 ## 技术栈
 
