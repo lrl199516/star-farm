@@ -3,5 +3,5 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <星际农场 />
 </template>
