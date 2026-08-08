@@ -1,0 +1,22 @@
+# 依赖目录
+node_modules/
+
+# 构建产物
+dist/
+client/dist/
+
+# 数据库文件与敏感信息
+server/data/*.db
+*.db
+.env
+.env.*
+
+# 日志
+*.log
+npm-debug.log*
+
+# 系统与编辑器文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
