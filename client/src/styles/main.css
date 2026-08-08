@@ -1,0 +1,32 @@
+/* 全局基础样式：深空背景 + 通用元素 */
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: system-ui, 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  color: #e8f0ff;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at 15% 0%, rgba(88, 80, 236, 0.35), transparent 55%),
+    radial-gradient(ellipse at 90% 100%, rgba(41, 171, 226, 0.25), transparent 50%),
+    #0b1026;
+}
+button {
+  font: inherit;
+  cursor: pointer;
+}
+/* 面板标题通用样式 */
+.panel-title {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+/* 弹层遮罩通用样式 */
+.mask {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
